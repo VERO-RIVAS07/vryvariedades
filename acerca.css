@@ -1,0 +1,135 @@
+h1{
+    color:white;
+    font-size: 29px;
+    text-align: center;
+ 
+    font-weight: bold;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    background: black;
+    text-align: center;
+
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block ;
+}
+nav ul li{
+    float: left;
+   
+}
+
+nav ul li a{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 30px;
+}
+
+a:hover{
+    color: black;
+}
+a.nav-link{
+font-size: 15px;
+color:white;
+font-weight: bold;
+font-style: italic;
+
+}
+
+a.nav-link:hover{
+    color: white;
+}
+
+
+
+p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  
+   
+}
+h2{
+    color:white;
+    font-size: 25px;
+    text-align: left;
+   
+    font-weight: bold;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+}
+h3{
+    color:white;
+    font-size:22px;
+    text-align: left;
+
+    font-weight: bold;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+}
+.accordion-body{
+    background: white;
+}
+.accordion-button{
+    background: black ;
+    color: white;
+}
+
+strong{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+background: white;
+}
+button{
+    font-size:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black; 
+}
+
+    body{
+        background: linear-gradient(red,orange, red);
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+@media (max-width:768px){
+    h1{
+        font-size: 25px;
+       
+    }
+   img.d-block{
+    height: 300px;
+   }
+   img.a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   }
+   a.nav-link{
+    font-size: 10px;
+   }
+   .accordion-body{
+    background: rgb(177, 231, 155) ;
+}
+.accordion-button{
+    background: rgb(241, 243, 140);
+}
+p{
+    font-size: 13px;
+}
+strong{
+    font-size: 13px;
+   }
+  
+  }
